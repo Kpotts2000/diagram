@@ -1,0 +1,57 @@
+<style>
+      body {
+  margin:0px;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#ddd;
+}
+.text-typing {
+  padding:20px 30px;
+  background:#f5f5f5;
+  font-size:35px;
+  font-family: alize, sans-serif;
+
+  font-weight: 600;
+
+  font-style: normal;  border-radius:50px;
+}
+.text-typing p {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+
+    </style>
+
+    .backgroundimage {
+      width:100%;
+      height:auto;
+      margin:0;
+      padding:0;
+      top:0;
+      position: absolute;
+      z-index:-1;
+      background-color:yellow;
+    }
+
+  .backgroundimage img {
+    width:100%;
+    min-height:100vh;
+    object-fit:contain;
+  }
