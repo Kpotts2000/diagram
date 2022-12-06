@@ -1,42 +1,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Collecting Data</title>
+    <title>Process</title>
 
     <link rel="stylesheet" href="mystyles.css">
     <link rel="stylesheet" href="https://use.typekit.net/ffa4hru.css">
-  <style>
-      body {
+
+
+
+
+
+
+
+
+
+<style>
+
+  body {
   margin:0px;
   height:100vh;
   display:flex;
   align-items:center;
   justify-content:center;
   background-color:black;
+  cursor: url('images/knifecursor.png'), auto;
+}
 
+  .fade-in-text {
+  font-family: alize, sans-serif;
+  color:white;
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: absolute;
+  display: grid;
+left: 330;
+top: 850;
+}
+
+.fade-in-text p {
+  width:max-content;
+  object-position: left: 9em; top: 20em;
+}
+
+.fade-in-text2 {
+font-family: alize, sans-serif;
+color:white;
+font-size: 30px;
+animation: fadeIn 10s;
+-webkit-animation: fadeIn 10s;
+-moz-animation: fadeIn 10s;
+-o-animation: fadeIn 10s;
+-ms-animation: fadeIn 10s;
+position: absolute;
+display: grid;
+left: 740;
+top: 400;
+}
+
+.fade-in-text3 {
+font-family: alize, sans-serif;
+color:white;
+font-size: 30px;
+animation: fadeIn 15s;
+-webkit-animation: fadeIn 15s;
+-moz-animation: fadeIn 15s;
+-o-animation: fadeIn 15s;
+-ms-animation: fadeIn 15s;
+position: absolute;
+display: grid;
+left: 910;
+top: 300;
+}
+
+.fade-in-text4 {
+font-family: alize, sans-serif;
+color:white;
+font-size: 30px;
+animation: fadeIn 15s;
+-webkit-animation: fadeIn 15s;
+-moz-animation: fadeIn 15s;
+-o-animation: fadeIn 15s;
+-ms-animation: fadeIn 15s;
+position: absolute;
+display: grid;
+left: 1100;
+top: 430;
+}
+
+.fade-in-text5 {
+font-family: alize, sans-serif;
+color:white;
+font-size: 30px;
+animation: fadeIn 15s;
+-webkit-animation: fadeIn 15s;
+-moz-animation: fadeIn 15s;
+-o-animation: fadeIn 15s;
+-ms-animation: fadeIn 15s;
+position: absolute;
+display: grid;
+left: 1200;
+top: 600;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*
 }
 .text-typing {
-  font-size:200px;
+  font-size:20px;
   font-family: alize, sans-serif;
 
   font-weight: 600;
-margin-left: 20px;
+margin-left: 40px;
   font-style: normal;
   border-radius:50px;
 }
 .text-typing {
-  margin-left:100px;
+  margin-left:130px;
+  margin-bottom: 20px;
+object-position: left: 12em; top: 20em;
   white-space:nowrap;
   overflow:hidden;
   color: white;
-  animation:typing 4s steps(22,end) forwards,
+  animation:typing 12s steps(22,end) forwards,
             blink 1s infinite;
+
 
 
 
           }
           .text-typing2 {
-            font-size:200px;
+            font-size: 20px;
             font-family: alize, sans-serif;
 
             font-weight: 600;
@@ -49,13 +170,14 @@ margin-left: 20px;
             white-space:nowrap;
             overflow:hidden;
             color: white;
-            animation:typing 4s steps(22,end) forwards,
+            animation:typing 12s steps(22,end) forwards,
                       blink 1s infinite;
 
 
                     }
+
                     .text-typing3 {
-                      font-size:200px;
+                      font-size:20px;
                       font-family: alize, sans-serif;
 
                       font-weight: 600;
@@ -68,10 +190,54 @@ margin-left: 20px;
                       white-space:nowrap;
                       overflow:hidden;
                       color: white;
-                      animation:typing 4s steps(22,end) forwards,
+                      animation:typing 12s steps(22,end) forwards,
                                 blink 1s infinite;
 
-}
+                              }
+
+
+                              .text-typing4 {
+                                font-size:20px;
+                                font-family: alize, sans-serif;
+
+                                font-weight: 600;
+
+                                font-style: normal;
+                                border-radius:50px;
+                              }
+                              .text-typing4 {
+                                margin:0px;
+                                white-space:nowrap;
+                                overflow:hidden;
+                                color: white;
+                                animation:typing 12s steps(22,end) forwards,
+                                          blink 1s infinite;
+
+                                        }
+
+
+
+
+                                        .text-typing5 {
+                                          font-size:20px;
+                                          font-family: alize, sans-serif;
+
+                                          font-weight: 600;
+
+                                          font-style: normal;
+                                          border-radius:50px;
+                                        }
+                                        .text-typing5 {
+                                          margin:0px;
+                                          white-space:nowrap;
+                                          overflow:hidden;
+                                          color: white;
+                                          animation:typing 12s steps(22,end) forwards,
+                                                    blink 1s infinite;
+
+                                                  }
+
+
 @keyframes typing {
   0% { width:0% }
   100% { width:100% }
@@ -84,7 +250,7 @@ margin-left: 20px;
     border-right:2px solid #222;
   }
 }
-
+*/
 .backgroundimage {
   width:100%;
   height:auto;
@@ -110,23 +276,25 @@ path {
 </head>
 <body class="container" style="margin-top: 50px; width: 50% height:auto; ">
 
-<div class="text-typing">
+
+
+<div class="fade-in-text">
 <p>make it </p>
 </div>
 
-<div class="text-typing2">
+<div class="fade-in-text2">
 <p>break it </p>
 </div>
 
-<div class="text-typing3">
+<div class="fade-in-text3">
 <p>make it again </p>
 </div>
 
-<div class="text-typing">
+<div class="fade-in-text4">
   <p>keep breaking it</p>
 </div>
 
-<div class="text-typing2">
+<div class="fade-in-text5">
   <p>accept what it becomes</p>
 </div>
 
